@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Arogya Desk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Arogya Desk is an AI-powered telemedicine application designed to improve access to healthcare services in India. The system provides real-time diagnoses, health data tracking, and tele-doctor consultations through an intuitive user interface. Users can register using their Aadhaar details and get connected to healthcare professionals seamlessly.
 
-## Available Scripts
+## Features
+- **User Registration/Login**: Secure login using Aadhaar number.
+- **Health History Tracking**: Access to personal health records.
+- **AI Diagnosis**: Input symptoms to receive AI-powered diagnostic predictions and recommendations.
+- **Tele-Doctor Pool**: Connect with nearby doctors for video consultations.
+- **Health Monitoring Tools**: Track sleep, activity, weight, calories, exercise, and heart rate.
+- **Attractive UI/UX**: User-friendly interface designed for ease of use.
 
-In the project directory, you can run:
+## Technologies Used
+- **Frontend**: React.js, Bootstrap
+- **Backend**: Node.js, Express.js (if applicable)
+- **Database**: MongoDB (if applicable)
+- **Containerization**: Docker
 
-### `npm start`
+## Installation
+To set up the project locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the Repository**
+   ```bash
+   git clone [<repository-url>](https://github.com/midhunann/arogyaDesk.git)
+   cd arogyaDesk
+Install Dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm install
+Start the Application
 
-### `npm test`
+bash
+Copy code
+npm start
+Open your browser and go to http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usage
+Register/Login: Enter your Aadhaar number to access the application.
+Explore Features: Use the sidebar to navigate through health history, profile, AI diagnosis, and tele-doctor consultations.
+AI Diagnosis: Input symptoms to get a predicted disease and recommendations.
+Tele-Doctor Pool: View available doctors and connect via video calls.
+Contributing
+We welcome contributions to enhance the Arogya Desk application. Please follow these steps to contribute:
 
-### `npm run build`
+Fork the repository.
+Create a new branch (git checkout -b feature/YourFeature).
+Make your changes and commit them (git commit -m 'Add new feature').
+Push to the branch (git push origin feature/YourFeature).
+Open a pull request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgments
+Special thanks to all contributors and mentors for their support and guidance during the hackathon.
+Contact
+For any queries, please contact:
+@teamArogyadesk
