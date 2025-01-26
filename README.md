@@ -1,59 +1,38 @@
-# Arogya Desk
+# arogyaDesk
 
-## Overview
-Arogya Desk is an AI-powered telemedicine application designed to improve access to healthcare services in India. The system provides real-time diagnoses, health data tracking, and tele-doctor consultations through an intuitive user interface. Users can register using their Aadhaar details and get connected to healthcare professionals seamlessly.
+arogyaDesk is an AI-powered telemedicine kiosk designed to provide comprehensive healthcare services across India. With advanced AI capabilities, these kiosks analyze patient data, offer real-time diagnoses, recommend treatment plans, and continuously monitor patient health. The system also enables virtual consultations with doctors when required, ensuring accessible and proactive healthcare management.
 
-## Features
-- **User Registration/Login**: Secure login using Aadhaar number.
-- **Health History Tracking**: Access to personal health records.
-- **AI Diagnosis**: Input symptoms to receive AI-powered diagnostic predictions and recommendations.
-- **Tele-Doctor Pool**: Connect with nearby doctors for video consultations.
-- **Health Monitoring Tools**: Track sleep, activity, weight, calories, exercise, and heart rate.
-- **Attractive UI/UX**: User-friendly interface designed for ease of use.
+**Achievement:** arogyaDesk won third prize (₹8000 cash prize) in the Value Health Hackathon for its innovative approach to healthcare.
 
-## Technologies Used
-- **Frontend**: React.js, Bootstrap
-- **Backend**: Node.js, Express.js (if applicable)
-- **Database**: MongoDB (if applicable)
-- **Containerization**: Docker
+**Note:** This project is currently a prototype and not a fully working model.
 
-## Installation
-To set up the project locally, follow these steps:
+**Team Members:** Midhunan V, Chirag Keshav, Nishanth S Gowda, Akshar Sakhi
 
-1. **Clone the Repository**
-   ```bash
-   git clone [<repository-url>](https://github.com/midhunann/arogyaDesk.git)
-   cd arogyaDesk
-Install Dependencies
+## Key Features
 
-bash
-Copy code
-npm install
-Start the Application
+- **Real-Time Vital Signs Monitoring:**
+  - High-precision sensors for measuring temperature, blood pressure (BP), oxygen saturation (SpO2), and heart rate.
+  - AI-driven anomaly detection to identify potential health risks such as hypertension or cardiovascular diseases.
+  - Personalized health assessments based on age, gender, and medical history.
 
-bash
-Copy code
-npm start
-Open your browser and go to http://localhost:3000.
+- **User-Friendly Symptom Input:**
+  - Intuitive interface for symptom entry via text, voice, or predefined options.
+  - Natural Language Processing (NLP) for interpreting free-text descriptions.
+  - Follow-up queries to capture onset and duration of symptoms.
 
-Usage
-Register/Login: Enter your Aadhaar number to access the application.
-Explore Features: Use the sidebar to navigate through health history, profile, AI diagnosis, and tele-doctor consultations.
-AI Diagnosis: Input symptoms to get a predicted disease and recommendations.
-Tele-Doctor Pool: View available doctors and connect via video calls.
-Contributing
-We welcome contributions to enhance the Arogya Desk application. Please follow these steps to contribute:
+- **AI Symptom Analysis:**
+  - Disease prediction by cross-referencing symptoms with an extensive medical dataset.
+  - Verification of major symptoms and known allergies for enhanced accuracy.
+  - Severity assessment to provide tailored recommendations.
 
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Make your changes and commit them (git commit -m 'Add new feature').
-Push to the branch (git push origin feature/YourFeature).
-Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+- **Disease Prediction and Recommendations:**
+  - Display of predicted diseases with detailed explanations.
+  - Personalized treatment plans including medications and lifestyle suggestions.
+  - Visual guides and animations for treatment procedures.
 
-Acknowledgments
-Special thanks to all contributors and mentors for their support and guidance during the hackathon.
-Contact
-For any queries, please contact:
-@teamArogyadesk
+- **Health Data Management and Follow-Up:**
+  - Unique health profiles created using biometric data and Aadhaar card linkage.
+  - Seamless access and updates to health records in subsequent visits.
+  - Tele-consultation with doctors for persistent or complex cases.
+
+### arogyaDesk - Empowering Healthcare Through AI
